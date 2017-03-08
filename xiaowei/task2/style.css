@@ -173,3 +173,15 @@ article form #submit {
 	width:100%;
 	background-color: #3355d0;
 }
+
+footer {
+	margin-top:20px;
+	height:50px;
+	background-color: black;
+	color:white;
+	text-align: center;
+}
+
+footer p {
+	line-height: 50px;
+}
