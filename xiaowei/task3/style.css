@@ -15,6 +15,7 @@ div {
 }
 
 .container {
+	position: relative;
 	margin:0 auto;
 	background-color: #eeeeee;
 }
@@ -45,8 +46,12 @@ div {
 }
 
 .info {
-	margin-left:220px;
-	margin-right:140px;
+	position:absolute;
+	#float:left;
+	#margin-left:220px;
+	#margin-right:140px;
+	left:240px;
+	right:160px;
 }
 
 .item {
