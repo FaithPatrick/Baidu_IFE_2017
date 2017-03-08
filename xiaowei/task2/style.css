@@ -7,6 +7,10 @@ body {
 	background-color: #DEDEDE;
 }
 
+p {
+	font-size:13px;
+	line-height: 25px;
+}
 
 header {
 	height:60px;
@@ -42,7 +46,130 @@ header ul li a:hover {
 }
 
 article {
-	width:95%;
-	margin:30px auto 0;
-	background-color: white
+	width:97%;
+	margin:25px auto 0;
+	background-color: white;
+	padding:35px 20px;
+	box-sizing: border-box;
+	box-shadow: 2px 2px 5px #888888;
+}
+
+article h2 , h3 {
+	margin-bottom:10px;
+}
+
+article h2 {
+	font-size:22px;
+}
+
+article h3 {
+	font-size:16px;
+	color:grey;
+}
+
+article .author {
+	font-size:13px;
+	color:grey;
+	margin-bottom:10px;
+}
+
+
+article img {
+	margin:10px 0;
+}
+
+article ul li {
+	font-size:13px;
+	list-style: none;
+	margin:5px 0;
+}
+
+article .imgbox {
+	margin:0 20px 20px;
+	border:1px solid #888888;
+	width:130px;
+	height:130px;
+	text-align: center;
+}
+
+article .imgbox p {
+	margin:5px;
+}
+
+article .imgbox img {
+	text-align: center;
+	vertical-align: middle;
+}
+
+article ol {
+	font-size:13px;
+	margin:0 0 10px 20px;
+}
+
+article ol li{
+	margin-bottom:5px;
+}
+
+article table {
+	border-collapse: collapse;   
+    border: none;   
+	font-size:13px;
+	width:100%;
+}
+
+article table td {
+	padding:3px;
+	border: solid #000 1px;   
+}
+
+article table th {
+	padding:3px;
+	text-align: left;
+	background-color: black;
+	color:white;
+}
+
+article table #total {
+	color:white;
+	font-weight: bold;
+	background-color: grey;
+}
+
+article .form {
+	width:100%;
+}
+
+article .left {
+	float:left;
+	width:40%;
+	text-align: right;
+}
+
+article .right {
+	float:right;
+	width:60%
+}
+
+article form {
+	font-size:14px;
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+   margin-bottom:10px;
+}
+
+article form #submit {
+	cursor: pointer;
+	font-size:14px;
+	border-radius: 5px;
+	color:white;
+	height:40px;
+	border:0;
+	width:100%;
+	background-color: #3355d0;
 }
