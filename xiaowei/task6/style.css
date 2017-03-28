@@ -164,7 +164,283 @@ header {
 }
 
 .section-2 {
-	height:350px;
+	margin:40px 0;
+	height:200px;
 	width: 641px;
-	background-color: grey;
+	/*background-color: grey;*/
+}
+
+.section-2--child {
+	float: left;
+	margin-right:20px;
+	height:200px;
+}
+
+.section-2--1 {
+	width: 230px;
+}
+
+.section-2--2 {
+	width: 210px;
+}
+
+.section-2--3 {
+	width: 150px;
+	margin-right: 0;
+}
+
+.section-2--1-title {
+	font-size: 16px;
+	color: #418c59;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.section-2--2-title {
+	font-size: 16px;
+	color: #d2994f;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.section-2--3-title {
+	font-size: 16px;
+	color: #cc7680;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.content {
+	margin-top:10px;
+	font-size: 12px;
+	color: #767777;
+	line-height: 16px;
+}
+
+
+.section-2--3 ul{
+	margin-left:5px;
+	line-height: 16px;
+	margin-top: 30px;
+	font-size: 12px;
+	color: #767777;
+	list-style: none;
+}
+
+.section-2--3 li{
+	margin-top:10px;
+}
+
+.red-percent {
+	font-size: 12px;
+	color: #cd4a48;
+	font-style: italic;
+	line-height: 16px;
+	opacity: 0.7;
+}
+
+.section-3 {
+	width: 890px;
+	position: relative;
+}
+
+.section-3-left {
+	/*background-color: grey;*/
+	width: 415px;
+	margin-right:20px;
+	
+}
+
+.section-3-right {
+	
+	width: 458px;
+	position: absolute;
+	right:0;
+	top: 0;
+	/*background-color: grey;*/
+}
+
+.setion-3-title-yellow {
+	line-height: 1;
+	display: inline-block;
+	font-size: 72px;
+	color: #f5e327;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.setion-3-title-blue {
+	display: inline-block;
+	font-size: 32px;
+	color: #11456b;
+	font-weight: bold;
+	line-height: 38px;
+}
+
+.setion-3-subtitle {
+	font-size: 33px;
+	color: #11456b;
+	font-weight: bold;
+	line-height: 45px;
+}
+
+.img2-box {
+	position: relative;
+	width:458px;
+	height: 257px;
+}
+
+.img2-title {
+	width:458px;
+	height: 61px;
+	position: absolute;
+	bottom: 0;
+	background: rgba(0,0,0,0.3);
+}
+
+.img2-title span:nth-child(1) {
+	font-size: 26px;
+	margin-left:40px;
+	padding-left:10px;
+	color: white;
+	line-height: 61px;
+	border-left: solid 3px #72b16a;
+}
+
+.img2-title span:nth-child(2) {
+	margin-left:10px;
+	font-size: 12px;
+	color: #72b16a;
+	font-style: italic;
+}
+
+.section-3-right-content-box {
+	position: relative;
+	margin-top:30px;
+	width: 459px;
+	height:318px;
+	background-color: #eeeed7;
+}
+
+.section-3-right-content-box-tiny {
+	position: absolute;
+	left:0;
+	bottom: 0;
+	width: 260px;
+	height: 160px;
+	background-color: #d55e5f;
+}
+
+.section-3-right-content-box-right {
+	box-sizing: border-box;
+	padding: 10px;
+	position: absolute;
+	right:0;
+	bottom: 0;
+	width: 200px;
+	height: 160px;
+	color: #767777;
+	font-size: 12px;
+	line-height: 22px;
+	padding-top: 40px;
+}
+
+
+.section-3-right-content-box-right span:first-child {
+	color :#d55e5f;
+	font-size:50px;
+	line-height: 1;
+	float:left;
+}
+
+.section-3-right-content-box-right span:last-child {
+	color :#d55e5f;
+	font-size:50px;
+	line-height: 1;
+	float:right;
+}
+
+.section-3-content {
+	position: relative;
+	margin-top:10px;
+	padding:20px 0;
+	border-top:solid 2px #11456b;
+}
+
+.section-3-content p {
+	font-size: 12px;
+	color: #767777;
+	line-height: 16px;
+}
+
+.section-3-content p:nth-child(1):first-letter {
+	color: #f5e327;
+	float:left;
+	font-size: 70px;
+	line-height: 1;
+	margin-right: 5px;
+}
+
+.img3-box {
+	float:right;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.section-3-right-content-box  {
+	padding-top:20px;
+}
+
+.section-3-right-content-box ul {
+	font-size: 16px;
+	color: #5a5b5b;
+	margin-left: 61px;
+}
+
+.section-3-right-content-box li {
+	margin-bottom: 20px;
+}
+
+.section-3-right-content-box li span {
+	font-style: italic;
+	font-size: 13px;
+}
+
+footer {
+	width: 100%;
+	border-top:solid 1px #938e8c;
+	text-align: right;
+	color: #d45d5c;
+    font-size: 12px;
+    font-family: SimHei;
+}
+
+.section-3-right-content-box-tiny-left {
+	font-size: 86px;
+	color: white;
+	font-weight: bold;
+	margin-left:10px;
+	/*line-height: 1;*/
+	border-right:solid 2px white;
+	padding-right: 10px;
+	display: inline-block;
+	height:69px;
+	margin-top: 43px;
+    line-height: 69px;
+}
+
+.section-3-right-content-box-tiny-right {
+	display: inline-block;
+	color: white;
+	height:69px;
+	width:170px;
+	line-height: 1;
+}
+
+.section-3-right-content-box-tiny-right span:first-child {
+	font-size:15px;
+}
+
+.section-3-right-content-box-tiny-right span:last-child {
+	font-size:12px;
 }
