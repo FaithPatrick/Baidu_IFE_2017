@@ -101,6 +101,10 @@ header {
 	height: 65px;
 }
 
+.section-1 button:hover {
+	background-color: #be4f4b;
+}
+
 .section-2 {
 	min-width: 1280px;
 	width: 100%;
@@ -120,8 +124,8 @@ header {
 }
 
 .desc {
-	color: #757575;
-	font-size: 15px;
+	color: #98989a;
+	font-size: 14px;
 	margin-top:40px;
 	height: 50px;
 	border-right:solid 2px #ababab;
@@ -151,7 +155,7 @@ header {
 
 .section-3 p {
 	margin-top: 30px;
-	font-size: 60px;
+	font-size: 50px;
 	color: #a2a2a2;
 }
 
@@ -215,12 +219,15 @@ header {
 }
 
 .select-icon {
+	cursor: pointer;
 	position: absolute;
 	top:12px;
 	right:10px;
 }
 
 .section-4-input {
+	
+	cursor: pointer;
 	width: 235px;
 	height: 35px;
 	padding-left: 10px;
@@ -240,6 +247,7 @@ header {
 	color: white;
 	border: none;
 	font-size: 16px;
+	cursor: pointer;
 }
 
 .select-area {
@@ -249,4 +257,52 @@ header {
 	box-sizing: border-box;
 	height: 180px;
 	border:solid 1px #be4f4b;
+}
+
+.select-item {
+	font-size: 13px;
+	text-align: left;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 30px;
+	color: #98989a;
+	cursor: pointer;
+}
+
+.select-item:hover {
+	background-color: #be4f4b;
+	color: white;
+}
+
+
+.section-5 {
+	box-sizing: border-box;
+	width: 100%;
+	min-width: 1280px;
+	height: 605px;
+	background-color: #f7f7f7;
+	padding:100px;
+}
+
+.section-5-item {
+	text-align: center;
+	box-sizing: border-box;
+	display: inline-block;
+	width: 24.6%;
+	height: 400px;
+	background-color: grey;
+	padding-left: 40px;
+}
+
+.section-5-item:first-child {
+	padding-left: 0;
+}
+
+.section5-img-box {
+	background-color: white;
+	padding: 10px;
+}
+
+.section5-img-box img {
+	width: 70%;
 }
